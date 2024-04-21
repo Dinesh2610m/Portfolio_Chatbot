@@ -1,38 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dinesh's Portfolio</title>
-<style>
-  body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-  .container { width: 80%; margin: auto; }
-  header { background: #333; color: white; padding: 10px 0; text-align: center; }
-  .main { padding: 20px; }
-  .expertise { background: #f4f4f4; padding: 10px; margin-top: 20px; }
-  .expertise h2 { margin: 0; }
-  .expertise p { margin: 10px 0 0; }
-</style>
+    <title>Dinesh's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        #header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        #content {
+            padding: 20px;
+        }
+        .job {
+            border: 1px solid #333;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .job h3 {
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Expertise in Data Analysis, Chatbot Development, Research, Data Collection, and Writing</p>
-  </header>
-  <div class="container">
-    <div class="main">
-      <h2>About Me</h2>
-      <p>Hello! I'm Dinesh, a professional with a passion for data analysis and chatbot development. With a strong background in research and data collection, I have honed my skills in writing and presenting complex data in an understandable way.</p>
-      <div class="expertise">
-        <h2>My Expertise</h2>
-        <p>Data Analysis</p>
-        <p>Chatbot Development</p>
-        <p>Research</p>
-        <p>Data Collection</p>
-        <p>Writing</p>
-      </div>
+    <div id="header">
+        <h1>Dinesh's Portfolio</h1>
     </div>
-  </div>
+    <div id="content">
+        <div class="job">
+            <h2>Microsoft India</h2>
+            <h3>Research Data Transcriber | Feb 2022 – Present</h3>
+            <p>Conducting thorough research and gathering data to support the project assigned by the client. Analyzing data and audio to identify trends, common phrases, and linguistic variations. Curating and organizing research data using Microsoft Excel to facilitate AI model training.</p>
+            <p>Proficiently transcribing audio recordings, ensuring accuracy and attention to detail. Managed highly confidential projects with strict adherence to confidentiality protocols. Collaborated with cross-functional teams to improve the AI’s understanding of human language.</p>
+            <p>Leading collaborative efforts with linguists, engineers, and domain experts to develop IVR and chatbots. Developing streamlined processes for efficient transcription and data handling. Contributing to continuous improvement by providing valuable feedback for model refinement.</p>
+        </div>
+        <div class="job">
+            <h2>Nuance India</h2>
+            <h3>Research Data Transcriber | Oct 2021 – Feb 2022</h3>
+            <p>Proficient in NLU, with demonstrated expertise in developing conversational agents and designing intricate dialogue flows. Skilled in identifying user intents and crafting corresponding entities, tailored to meet client specifications. Adept at training conversational AI through the integration of extensive training phrases, ensuring high accuracy in user interaction. Learned more chatbot and IVR developing tools like Dialogflow, IBM Watson, etc.</p>
+        </div>
+        <div class="job">
+            <h2>Freelancer</h2>
+            <h3>Researcher and Transcriber | Aug 2019 – Oct 2021</h3>
+            <p>Conducted data research for a United States-based opioid overdose prevention group, overseeing the transcription of focus group meetings. Executed market research focusing on motorcycles, specifically targeting consumers in Taiwan and Philippines. Gathered insights into consumer preferences and product appreciation.</p>
+        </div>
+        <div class="job">
+            <h2>FingerLinks Infotech</h2>
+            <h3>Transcriber and Team Lead | Oct 2015 – Aug 2021</h3>
+            <p>Achieved consistently high-quality transcriptions of audio content, surpassing client expectations. Reviewed and edited files submitted by team members to maintain accuracy and consistency. Edited 120 to 150 minutes of audio per day, maintaining accuracy levels of 95% and above.</p>
+            <p>After 1.5 years of hard work, I was promoted as a team lead and been leading the team for over 3.5 years. Entrusted with the responsibility of receiving test files from clients. Allocated files to the team members and kept the file flow smooth.</p>
+        </div>
+    </div>
 </body>
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
